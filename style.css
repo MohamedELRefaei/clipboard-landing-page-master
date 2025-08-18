@@ -1,0 +1,56 @@
+/* Already imported via HTML link tag */
+
+:root {
+  /* Colors */
+  --color-primary-green-500: hsl(171, 66%, 44%);
+  --color-primary-blue-100: hsl(233, 100%, 69%);
+  --color-neutral-gray-700: hsl(210, 10%, 33%);
+  --color-neutral-gray-500: hsl(201, 11%, 66%);
+
+  /* Typography */
+  --font-family: 'Bai Jamjuree', sans-serif; /* Fallback included */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-size-body: 18px;
+}
+/* CSS Reset and box-sizing */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set core body defaults */
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-body);
+  color: var(--color-neutral-gray-700);
+  background-color: #fff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default list styles on ul, ol elements */
+ul, ol {
+  list-style: none;
+}
+
+/* Anchor tag defaults */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image defaults */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Responsive media embed */
+iframe, embed, object {
+  max-width: 100%;
+}
+/* CSS Style */
